@@ -45,9 +45,8 @@ padding: 0 20px 10px 20px;
 
 .sidebar-2{
     position: fixed;
-    top: 200px;
-    left: 0px;
-    left: 0px;    
+    top: 175px;
+    left: 0px;   
     padding: 12px;
     width: 300px;
 }
@@ -68,10 +67,11 @@ padding: 0 20px 10px 20px;
     text-decoration: none;
     font-weight: 600;
     font-size: 15px;
-    padding-left: 10px;
+    
 }
 .sidebar-2 .plus{
-    padding-left: 50px;
+    padding-left: 126px;
+    
 }
 
 
