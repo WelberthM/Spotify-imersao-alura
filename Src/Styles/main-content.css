@@ -56,7 +56,7 @@
     border: 1px solid transparent;
 }
 
-.header__navigation img { 
+.headernavigation img { 
     width: 16px;
     height: 16px;
     margin-left: 10px;
@@ -79,7 +79,10 @@
     font-weight: 700;
     background-color: transparent;
     margin-right: 32px;
+    border: 0px;
+
 }
+
 
 .header__login .login{
     width: 100px;
@@ -87,5 +90,5 @@
     color: #000;
     font-size: 16px;
     font-weight: 700;
-    border-radius: 40px;
+    border-radius: 30px;
 }
