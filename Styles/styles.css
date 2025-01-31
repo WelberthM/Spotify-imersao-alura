@@ -54,6 +54,7 @@ padding: 0 20px 10px 20px;
     font-weight: 600;
     font-size: 14px;
     margin-top: 10px;
+    cursor: pointer;
 }
 
 .library .library__content{
@@ -74,6 +75,7 @@ padding: 0 20px 10px 20px;
     text-decoration: none;
     text-transform: none;
     padding: 20px 10px;
+    cursor: pointer;
 }
 
 .library .library__content .library__button .fa{
@@ -119,7 +121,7 @@ padding: 0 20px 10px 20px;
 }
 
 
-.section-playlist__content .subitle{
+.section-playlist__content .subtitle{
     font-weight: 500;
     font-size: 12px;
 }
@@ -166,4 +168,45 @@ padding: 0 20px 10px 20px;
     width: 170px;
     padding: 8px;
     border-radius: 20px;
+}
+
+.disclaimer-premium{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to left, #ad1491, #00fff2b9);
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.disclaimer-premium .text {
+    flex-shrink: 0;
+}
+
+.disclaimer-premium .disclaimer-premium__title{
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 12px;
+    margin-bottom: 10px;
+    
+}
+
+.disclaimer-premium .disclaimer-premium__subtitle{
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.disclaimer-premium button{
+    background-color: #ffffff;
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 14px 30px;
+    border: 0px;
+    border-radius: 40px;
+    cursor: pointer;
 }
