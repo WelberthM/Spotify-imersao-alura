@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Styles/reset.css">
-    <link rel="stylesheet" href="Styles/styles.css">
+    <link rel="stylesheet" href="./src/Styles/reset.css">
+    <link rel="stylesheet" href="./src/Styles/vars.css">
+    <link rel="stylesheet" href="./src/Styles/sidebar-footer.css">
 
     <!-- Links para trazer os ícones via CDN -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"/>
@@ -18,7 +19,7 @@
         <nav class="sidebar__navigation">
             <div class="logo">
                 <a href="">
-                    <img src="assets-20250127T200024Z-001/assets/icons/logo-spotify.png" alt="Logo Spotify">
+                    <img src="./src/assets/icons/logo-spotify.png" alt="Logo Spotify">
                 </a>
             </div>
                 <ul>
@@ -68,6 +69,31 @@
         </div>
     </div>
  </div>
+
+ <main>
+     <div class="main-conteiner">
+        <nav class="header__navigation">
+            <div class="navigation">
+                <button class="arrow-left">
+                    <img src="./src/assets/icons/small-left.png" alt="Seta Esquerda">
+                </button>
+                <button class="arrow-right">
+                    <img src="./src/assets/icons/small-right.png" alt="Seta Direita">
+                </button>
+            </div> <!-- Fechamento correto da navigation -->
+                <div class="header__search">
+                    <img src="./src/assets/icons/search.png" alt="">
+                    <input id="search-input" type="text" maxlength="800" placeholder="Qual seu ritmo do dia?">
+                </div>
+                <div class="header__login">
+                    <button class="subscribe-button">Subscribe</button>
+                    <button class="login-button">Entrar</button>
+                </div>
+            </div>
+        </nav>
+    </div>
+ </main>
+
  <footer class="disclaimer-premium">
     <div class="text">
         <p class="disclaimer-premium__title">Testar o Premium de graça</p>

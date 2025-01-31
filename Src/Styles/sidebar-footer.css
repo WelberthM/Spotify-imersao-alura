@@ -1,5 +1,6 @@
 body {
  background-color: rgb(0, 0, 0);
+ font-family: var(--font-dm-sans);
 }
 
 .sidebar{
@@ -40,7 +41,7 @@ padding: 0 20px 10px 20px;
     text-decoration: none;
     font-weight: 600;
     font-size: 14px;
-    font-family: "DM Sans", sans-serif;
+    
 }
 
 .library{
@@ -70,7 +71,7 @@ padding: 0 20px 10px 20px;
     border: 0px;
     font-size: 14px;
     font-weight: 700;
-    font-family: "DM Sans", sans-serif;
+
     text-align: center;
     text-decoration: none;
     text-transform: none;
@@ -112,7 +113,7 @@ padding: 0 20px 10px 20px;
 .section-playlist__content .text{
     padding-bottom: 14px;
     color: #ffff;
-    font-family: "DM Sans", sans-serif;
+    
 }
 
 .section-playlist__content .title{
@@ -134,7 +135,6 @@ padding: 0 20px 10px 20px;
     border-radius: 20px;
     font-size: 12px;
     font-weight: 700;
-    font-family: "DM Sans", sans-serif;
     text-decoration: none;
     text-transform: none;
     padding: 10px;
@@ -186,7 +186,7 @@ padding: 0 20px 10px 20px;
 }
 
 .disclaimer-premium .disclaimer-premium__title{
-    color: #000000;
+    color: #ffffff;
     text-transform: uppercase;
     font-weight: 400;
     font-size: 12px;
